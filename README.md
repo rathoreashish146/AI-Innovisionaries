@@ -1,5 +1,4 @@
-
-# Medical Chatbot 
+# Medical Chatbot Readme
 
 ## 1. Introduction
 
@@ -49,7 +48,6 @@ A repository or database of structured information and knowledge stored in Pinec
 
 ### Frontend
 Development of the frontend or web application interface using Flask, a lightweight web framework for Python, allowing quick and efficient creation of web applications.
-![image](https://github.com/rathoreashish146/AI-Innovisionaries/assets/117078265/e73662c7-5929-4383-a11f-91bfbb446fc9)
 
 ### Tech Stack Used
 
@@ -57,6 +55,19 @@ Development of the frontend or web application interface using Flask, a lightwei
 - **Frontend/Web App:** Flask
 - **LLM - Meta Llama2:** GPT 3.5 model used for processing and generating output responses based on user queries.
 - **Vector DB - Pinecone:** Vector database for storing and querying embeddings or vector representations of medical concepts and data.
+
+## Additional Steps
+
+### Real-Time Use Video
+
+Watch our model demonstrating real-time usage of the Medical Chatbot ![pic 2](https://github.com/rathoreashish146/AI-Innovisionaries/assets/117078265/dcdeb267-5cb6-4387-93db-b47cd27c0ca3)
+.
+
+### Architecture Flow Chart
+
+![image arch 2](https://github.com/rathoreashish146/AI-Innovisionaries/assets/117078265/c377d1cf-09c7-4f65-9f6a-e0f0bbae64ff)
+
+![image arch](https://github.com/rathoreashish146/AI-Innovisionaries/assets/117078265/f42f4141-d034-4ed5-9480-96626a4ba9e0)
 
 ## How to Run
 
