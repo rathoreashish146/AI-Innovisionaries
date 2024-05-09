@@ -5,6 +5,8 @@ import time
 import itertools
 import openai
 from  pinecone import Pinecone
+import os
+
 limit = 3750
 #Extract data from the PDF
 def load_pdf(data):
@@ -49,8 +51,8 @@ def chunks(iterable, batch_size=100):
 
     #  --------------------------------------------------------------------------   
     
-PINECONE_API_KEY = "ee7860c7-aab7-4bec-bd66-0521c66fe048"
-openai.api_key = 'sk-proj-UPUTw85MiYiBtYvOIXwUT3BlbkFJLrk4Y6aNyd39U6udFgMG'
+PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 embeddings = download_hugging_face_embeddings()
 
